@@ -1,0 +1,52 @@
+name: pet_pioneer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.6
+  dotted_border: ^2.1.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  salomon_bottom_bar: ^3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Regular.ttf
+        - asset: assets/fonts/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope-ExtraBold.ttf
+          weight: 800  
+        - asset: assets/fonts/Manrope-Light.ttf
+          weight: 100  
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 200
+        
+  assets:
+    - assets/images/illustrations/man-dog.png
+    - assets/images/illustrations/cliniccard.png
+    - assets/images/illustrations/hospital.png
+    - assets/images/illustrations/university.png
+    - assets/images/illustrations/gpay.png
+    - assets/images/icons/star.svg
+    - assets/images/icons/heart.svg
+    - assets/images/icons/hearingaids.png
+    - assets/images/icons/gift.png
